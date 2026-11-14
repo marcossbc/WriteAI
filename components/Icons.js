@@ -1,0 +1,25 @@
+// Small inline icon set (stroke icons, inherit currentColor)
+const P = { fill: "none", stroke: "currentColor", strokeWidth: 1.7, strokeLinecap: "round", strokeLinejoin: "round" };
+export const IconNew = (p) => <svg viewBox="0 0 24 24" className="ic" {...P} {...p}><path d="M12 20h9" /><path d="M16.5 3.5a2.1 2.1 0 0 1 3 3L7 19l-4 1 1-4z" /></svg>;
+export const IconFolder = (p) => <svg viewBox="0 0 24 24" className="ic" {...P} {...p}><path d="M3 7a2 2 0 0 1 2-2h4l2 2h8a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" /></svg>;
+export const IconClock = (p) => <svg viewBox="0 0 24 24" className="ic" {...P} {...p}><circle cx="12" cy="12" r="9" /><path d="M12 7v5l3 2" /></svg>;
+export const IconChat = (p) => <svg viewBox="0 0 24 24" className="ic" {...P} {...p}><path d="M21 12a8 8 0 0 1-11.6 7.1L4 20l1-4.6A8 8 0 1 1 21 12z" /></svg>;
+export const IconFile = (p) => <svg viewBox="0 0 24 24" className="ic" {...P} {...p}><path d="M14 3H7a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8z" /><path d="M14 3v5h5" /></svg>;
+export const IconPanel = (p) => <svg viewBox="0 0 24 24" className="ic" {...P} {...p}><rect x="3" y="4" width="18" height="16" rx="3" /><path d="M9 4v16" /></svg>;
+export const IconChevron = (p) => <svg viewBox="0 0 24 24" {...P} {...p}><path d="m6 9 6 6 6-6" /></svg>;
+export const IconClip = (p) => <svg viewBox="0 0 24 24" className="ic" {...P} strokeWidth={1.9} {...p}><path d="m21 11-8.6 8.6a5 5 0 0 1-7-7L14 4a3.3 3.3 0 0 1 4.7 4.7L10 17.4a1.7 1.7 0 0 1-2.4-2.4L15 7.6" /></svg>;
+export const IconSend = (p) => <svg viewBox="0 0 24 24" {...P} strokeWidth={2.2} {...p}><path d="M12 19V5" /><path d="m5 12 7-7 7 7" /></svg>;
+export const IconSlides = (p) => <svg viewBox="0 0 24 24" className="ic" {...P} {...p}><rect x="3" y="4" width="18" height="12" rx="2" /><path d="M12 16v4M8 20h8" /></svg>;
+export const IconSheet = (p) => <svg viewBox="0 0 24 24" className="ic" {...P} {...p}><rect x="3" y="4" width="18" height="16" rx="2" /><path d="M3 10h18M3 15h18M9 4v16" /></svg>;
+export const IconImage = (p) => <svg viewBox="0 0 24 24" className="ic" {...P} {...p}><rect x="3" y="4" width="18" height="16" rx="2" /><circle cx="9" cy="10" r="1.6" /><path d="m21 16-5-5-8 8" /></svg>;
+export const IconVideo = (p) => <svg viewBox="0 0 24 24" className="ic" {...P} {...p}><rect x="3" y="5" width="14" height="14" rx="2" /><path d="m17 10 4-2v8l-4-2" /></svg>;
+export const IconDesign = (p) => <svg viewBox="0 0 24 24" className="ic" {...P} {...p}><path d="M12 3a9 9 0 1 0 0 18c1.1 0 1.8-.8 1.8-1.7 0-1.2-1-1.5-1-2.6 0-.9.7-1.6 1.6-1.6H17a4 4 0 0 0 4-4C21 6.6 17 3 12 3z" /><circle cx="7.5" cy="11" r="1" /><circle cx="10" cy="7.5" r="1" /><circle cx="15" cy="7.5" r="1" /></svg>;
+export const IconWriter = (p) => <svg viewBox="0 0 24 24" className="ic" {...P} {...p}><path d="M4 20h4L19 9a2.8 2.8 0 0 0-4-4L4 16z" /><path d="m13.5 6.5 4 4" /></svg>;
+export const IconMore = (p) => <svg viewBox="0 0 24 24" className="ic" {...P} {...p}><rect x="4" y="4" width="6" height="6" rx="1.5" /><rect x="14" y="4" width="6" height="6" rx="1.5" /><rect x="4" y="14" width="6" height="6" rx="1.5" /><rect x="14" y="14" width="6" height="6" rx="1.5" /></svg>;
+export const IconBrain = (p) => <svg viewBox="0 0 24 24" className="ic" {...P} {...p}><path d="M9 4a3 3 0 0 0-3 3 3 3 0 0 0-2 5 3 3 0 0 0 2 5 3 3 0 0 0 6 1V5a2 2 0 0 0-3-1z" /><path d="M15 4a3 3 0 0 1 3 3 3 3 0 0 1 2 5 3 3 0 0 1-2 5 3 3 0 0 1-6 1" /></svg>;
+export const IconDownload = (p) => <svg viewBox="0 0 24 24" className="ic" {...P} {...p}><path d="M12 4v11M7 11l5 5 5-5M5 20h14" /></svg>;
+export const IconTrash = (p) => <svg viewBox="0 0 24 24" className="ic" {...P} {...p}><path d="M4 7h16M10 11v6M14 11v6M6 7l1 13h10l1-13M9 7V4h6v3" /></svg>;
+export const IconGem = (p) => <svg viewBox="0 0 24 24" className="ic" {...P} {...p}><path d="M6 4h12l4 6-10 11L2 10z" /><path d="M2 10h20M9 4l3 17M15 4l-3 17" /></svg>;
+export const IconBack = (p) => <svg viewBox="0 0 24 24" className="ic" {...P} {...p}><path d="M19 12H5M11 6l-6 6 6 6" /></svg>;
+export const IconClose = (p) => <svg viewBox="0 0 24 24" className="ic" {...P} {...p}><path d="M6 6l12 12M18 6 6 18" /></svg>;
+export const IconMenu = (p) => <svg viewBox="0 0 24 24" className="ic" {...P} strokeWidth={2} {...p}><path d="M4 7h16M4 12h16M4 17h16" /></svg>;
