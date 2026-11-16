@@ -16,7 +16,7 @@ const themeScript = `(function(){var d=document.documentElement;try{var t=localS
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en" suppressHydrationWarning>
+    <html lang="en" data-scroll-behavior="smooth" suppressHydrationWarning>
       <head><script dangerouslySetInnerHTML={{ __html: themeScript }} /></head>
       <body>{children}<PwaRegister /></body>
     </html>

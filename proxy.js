@@ -4,7 +4,7 @@ import { jwtVerify } from "jose";
 const SAFE = ["GET", "HEAD", "OPTIONS"];
 const MAX_BODY = 40 * 1024 * 1024;
 
-export async function middleware(req) {
+export async function proxy(req) {
   const { pathname } = req.nextUrl;
 
   if (pathname.startsWith("/api")) {
